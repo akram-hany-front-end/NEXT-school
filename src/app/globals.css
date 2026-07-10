@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@theme {
+  --color-akram-cyan: #C3EBFA;
+  --color-akram-cyan-light: #EDF9FD;
+  --color-akram-purple: #CFCEFF;
+  --color-akram-purple-light: #F1F0FF;
+  --color-akram-yellow: #FAE27C;
+  --color-akram-yellow-light: #FEFCE8;
+}
