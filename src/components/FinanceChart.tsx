@@ -97,13 +97,8 @@ const FinanceChart = () => {
           <XAxis dataKey="name" stroke="var(--color-text-3)" />
           <YAxis width="auto" stroke="var(--color-text-3)" />
           <Tooltip
-            cursor={{
-              stroke: "var(--color-border-2)",
-            }}
-            contentStyle={{
-              backgroundColor: "var(--color-surface-raised)",
-              borderColor: "var(--color-border-2)",
-            }}
+                   contentStyle={{ borderRadius: "10px", borderColor: "lightgray" }}
+
           />
           <Legend 
           align="center"
